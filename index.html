@@ -9,32 +9,36 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header></header>
     <main>
     <div class="container">
-        <div class="box-usuario">
-            <a href="https://www.linkedin.com/in/danielemidio1988"><img src="./assets/IMG-20220914-WA0013_2.jpg" alt="foto-perfil"></a>
-            <span><a href="https://www.linkedin.com/in/danielemidio1988">Daniel Emidio da Silva</a></span>
+
+        <div class="box-container-1">
+            <div class="box-foto">
+                <img src="./assets/foto.jpg" alt="foto-a-comentar">
+            </div>
         </div>
-        <div class="box-foto">
-            <img src="./assets/foto.jpg" alt="foto-a-comentar">
+
+        <div class="box-container-2">
+            <div class="box-usuario">
+                <a href="https://github.com/DanielEmidio1988" target="_blank"><img src="./assets/IMG-20220914-WA0013_2.jpg" alt="foto-perfil"></a>
+                <span><a href="https://www.linkedin.com/in/danielemidio1988">Daniel Emidio da Silva</a></span>
+            </div>
+            <div class="box-introducao-usuario">
+                <a href="https://www.linkedin.com/in/danielemidio1988" target="_blank">Daniel Emidio da Silva</a>: Meu papel de parede preferido 🤩. <br/><br/>Autor, desconhecido. 
+            </div>
+            <div class="box-interacao">
+                <img src="./assets/heart.png" alt="button-curtir" onclick="clicaCurtir()"> <span id="id-curtir">0</span>
+            </div>
+            <div class="box-publicacao-usuario" id="box-publicacao-usuario">
+                <input type="text" id="input-comentario" placeholder="Adicionar comentário"><br/>
+                <button onclick="publicarComentario()">Publicar</button><br/>
+                
+            </div>
         </div>
         
-        <div class="box-introducao-usuario">
-            <a href="https://www.linkedin.com/in/danielemidio1988">Daniel Emidio da Silva</a>: Meu papel de parede preferido. Autor, desconhecido. 
-        </div>
-        <div class="box-interacao">
-            <img src="./assets/heart.png" alt="button-curtir" onclick="clicaCurtir()"> <span id="id-curtir">0</span>
-        </div>
-        <div class="box-comentarios">
-
-        </div>
-        <div class="box-publicacao-usuario" id="box-publicacao-usuario">
-            <input type="text" id="input-comentario" placeholder="Adicionar comentário"><br/>
-            <button onclick="publicarComentario()">Publicar</button><br/>
-            <p></p>
-        </div>
     </div>
-    </main> 
+</main>
     
 </body>
 </html>
