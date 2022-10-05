@@ -1,6 +1,6 @@
 # Template Página de Comentários
 
-![Preview](![preview](./assets/readmefoto.png))
+![Preview](./assets/readmefoto.png)
 
 ## Sobre o projeto
 Projeto de estudo elaborado de uma página de comentários de uma foto utilizando Javascript + CSS + HTML. O usuário deve ser capaz de digitar seu comentário e publicar na página.
