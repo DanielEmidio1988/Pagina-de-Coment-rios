@@ -15,4 +15,5 @@ Projeto de estudo elaborado de uma página de comentários de uma foto utilizand
 ## Contato
 
 emidio.daniel@hotmail.com
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/danielemidio1988/)
