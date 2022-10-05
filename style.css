@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #F3F2EF;
+    height: 100%;
+    width: 100%;
+}
+
+
+.container{
+    margin: 15vw;
+    border: 1px solid #E0DFDC;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+}
+
+.box-usuario{
+    margin-left: 3.5vw;
+    margin-top: 1.5vw;
+    margin-bottom: 0.8vw;
+    display: flex;
+    font-size: 1vw;
+    font-weight: bold;
+}
+
+.box-usuario img{
+    height: 3.5vw;
+    border-radius: 50%;
+    margin-right: 30px;
+    
+}
+
+.box-usuario span{
+    display: flex;
+    align-content:  center;
+    margin-top: 20px;
+}
+
+.box-foto{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.box-foto img{
+    margin-bottom: 20px;
+    width: 90%;
+}
+
+.box-introducao-usuario{
+    margin-left: 3.5vw;
+    margin-bottom: 20px;
+}
+
+.box-introducao-usuario a{
+    font-weight: bold;
+}
+
+.box-interacao{
+    margin-left: 3.5vw;
+    margin-bottom: 20px;
+    width: 5vw;
+    padding-left: 1.8vw;
+    padding-top: 0.5vw;
+}
+
+.box-interacao img {
+    height: 1vw;
+}
+
+.box-interacao:hover{
+    background-color: #F3F2EF;
+}
+
+.box-interacao img:hover{
+    cursor:pointer;
+}
+
+.box-publicacao-usuario{
+    margin-left: 3.5vw;
+    margin-bottom: 3.5vw;
+}
+
+.box-publicacao-usuario input{
+    width: 95%;
+    height: 2vw;
+    padding-left: 1.5vw;
+    border: 1px solid #E0DFDC;
+    margin-bottom: 5px;
+    background-color: #F3F2EF;
+}
+
+.box-publicacao-usuario input:hover{
+    background-color: #E8E7E4;
+}
+
+
+.box-publicacao-usuario button{
+    width: 10vw;
+    height: 1.5vw;
+    border: none;
+    margin-bottom: 5px;
+    background-color: #0A66C2;
+    color: white;
+    border-radius: 12px;
+}
+
+.box-publicacao-usuario button:hover{
+    cursor: pointer;
+    border: white;
+    color: black;
+    font-weight: bold;
+    background-color: #0C7AE8;
+}
+
+.box-publicacao-usuario button:active{
+    color: white;
+    font-weight: bold;
+    background-color: #0957A6;
+}
+
+.box-publicacao-usuario p{
+    margin-bottom: 10px;
+}
+
+
+
