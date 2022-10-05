@@ -7,56 +7,75 @@
 
 body{
     background-color: #F3F2EF;
-    height: 100%;
-    width: 100%;
 }
 
+main{
+    height: 100vw;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
 
 .container{
-    margin: 15vw;
-    border: 1px solid #E0DFDC;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    border-radius: 8px;
+    margin-top: 40px;
+    max-width: 80vw;
+    width: 70%;
+    height: 30vw;
+    display: grid;
+    grid-template-columns: 60% 1fr;
 }
 
-.box-usuario{
-    margin-left: 3.5vw;
-    margin-top: 1.5vw;
-    margin-bottom: 0.8vw;
+.box-container-1{
+    background-color: black;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.box-foto{
+    margin-top: 5px;
     display: flex;
-    font-size: 1vw;
+    align-content: center;
+    justify-content: center;
+}
+
+.box-foto img{
+    margin-top: 3vw;
+    width: 99%;
+}
+
+.box-container-2{
+    border: 1px solid #E0DFDC;
+    background-color: white;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+
+.box-usuario{
+    margin-left: 1.5vw;
+    margin-top: 1vw;
+    margin-bottom: 0.3vw;
+    display: flex;
+    font-size: 0.9vw;
     font-weight: bold;
 }
 
 .box-usuario img{
-    height: 3.5vw;
+    height: 3vw;
     border-radius: 50%;
-    margin-right: 30px;
-    
+    margin-right: 10px;
 }
 
 .box-usuario span{
-    display: flex;
-    align-content:  center;
-    margin-top: 20px;
-}
-
-.box-foto{
-    display: flex;
-    justify-content: center;
-    margin-top: 5px;
-}
-
-.box-foto img{
-    margin-bottom: 20px;
-    width: 90%;
+    margin-top: 10px;
 }
 
 .box-introducao-usuario{
-    margin-left: 3.5vw;
-    margin-bottom: 20px;
+    margin-left: 1.5vw;
+    margin-top: 1vw;
+    margin-bottom: 10px;
+    font-size: 0.8vw;
 }
 
 .box-introducao-usuario a{
@@ -64,15 +83,18 @@ body{
 }
 
 .box-interacao{
-    margin-left: 3.5vw;
+    margin-left: 1.5vw;
     margin-bottom: 20px;
-    width: 5vw;
-    padding-left: 1.8vw;
+    width: 3vw;
+    display: flex;
+    justify-content: center;
     padding-top: 0.5vw;
+    font-size: 0.8vw;
 }
 
 .box-interacao img {
-    height: 1vw;
+    height: 0.8vw;
+    margin-right: 2px;
 }
 
 .box-interacao:hover{
@@ -84,7 +106,7 @@ body{
 }
 
 .box-publicacao-usuario{
-    margin-left: 3.5vw;
+    margin-left: 1.5vw;
     margin-bottom: 3.5vw;
 }
 
@@ -93,23 +115,24 @@ body{
     height: 2vw;
     padding-left: 1.5vw;
     border: 1px solid #E0DFDC;
-    margin-bottom: 5px;
+    margin-bottom: 0.5vw;
     background-color: #F3F2EF;
+    border-radius: 16px;
 }
 
 .box-publicacao-usuario input:hover{
     background-color: #E8E7E4;
 }
 
-
 .box-publicacao-usuario button{
     width: 10vw;
     height: 1.5vw;
     border: none;
-    margin-bottom: 5px;
+    margin-bottom: 1vw;
+    margin-left: 1vw;
     background-color: #0A66C2;
     color: white;
-    border-radius: 12px;
+    border-radius: 12px; 
 }
 
 .box-publicacao-usuario button:hover{
@@ -127,8 +150,18 @@ body{
 }
 
 .box-publicacao-usuario p{
-    margin-bottom: 10px;
+    margin-bottom: 1vw;
+    font-size: 0.8vw;
+    margin-left: 1vw;
+    background-color: #F3F2EF;
+    width: 80%;
+    height: 1.8vw;
+    border-radius: 12px;
+    padding-left: 1vw;
+    padding-top: 0.3vw;
 }
+
+
 
 
 
